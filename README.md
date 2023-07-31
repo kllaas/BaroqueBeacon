@@ -7,8 +7,10 @@ A state-of-the-art Android application to explore the beauty of Baroque artwork.
 - **MVVM Architecture:** The app employs the Model-View-ViewModel (MVVM) pattern, allowing for a clear separation of concerns and an easier path to unit testing.
 - **Clean Architecture:** Building on top of MVVM, the project is structured with Clean Architecture principles in mind. This promotes the SOLID principles, making the app more scalable and maintainable.
 - **Use Cases:** With use cases, we ensure the separation and encapsulation of business logic, making features more modular and easier to manage.
-- **ViewModels:** For efficient data handling and UI state management, we utilize Android's ViewModel.
-
+- **ViewModels:** utilize Android's ViewModel for efficient data handling and UI state management.
+- **Day-Night Design Support:** The application adapts to your preferred theme! (Dark or Light)
+- **Pagination:** Efficiently loads artworks in manageable chunks to enhance the browsing experience. Instead of relying on third-party pagination libraries, the app uses a custom implementation tailored to its specific needs, keeping things light and simple.
+  
 ## Libraries & Technologies 🛠️
 
 - **Hilt:** Dependency injection is managed by Hilt, ensuring that the app's dependencies are provided efficiently and in a decoupled manner.
