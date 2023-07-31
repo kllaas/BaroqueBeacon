@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BaroqueBeacon</string>
+    <string name="overview_fragment">Overview Fragment</string>
+    <string name="button_retry">Retry</string>
+    <string name="error_image">Error image</string>
+    <string name="back">Back</string>
+    <string name="artist">Artist: %1$s</string>
+    <string name="invalid_artwork_id">Invalid artwork ID</string>
+    <string name="no_artwork_id_provided">No artwork id provided</string>
+    <string name="unknown_error">Unknown error</string>
+</resources>

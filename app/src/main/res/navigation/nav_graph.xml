@@ -1,0 +1,26 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/overviewFragment"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        android:id="@+id/overviewFragment"
+        android:name="com.example.baroquebeacon.ui.features.overview.OverviewFragment"
+        android:label="Sample Fragment" >
+
+        <action
+            android:id="@+id/action_overviewFragment_to_detailFragment"
+            app:destination="@id/detailFragment">
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.baroquebeacon.ui.features.details.DetailsFragment"
+        android:label="Detail Fragment" >
+
+        <argument
+            android:name="artworkId"
+            app:argType="string" />
+    </fragment>
+</navigation>
